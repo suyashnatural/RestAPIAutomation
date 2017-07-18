@@ -1,4 +1,4 @@
-package com.webservice.requestpojo;
+package com.webservice.requestpojo.specificcountry;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

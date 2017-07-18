@@ -7,9 +7,9 @@ import org.testng.annotations.Test;
 
 import com.google.gson.Gson;
 import com.jayway.restassured.response.Response;
-import com.webservice.responsepojo.CountrySearchResponsePojo;
-import com.webservice.responsepojo.RestResponse;
-import com.webservice.responsepojo.Result;
+import com.webservice.responsepojo.specificcountry.CountrySearchResponsePojo;
+import com.webservice.responsepojo.specificcountry.RestResponse;
+import com.webservice.responsepojo.specificcountry.Result;
 import com.webservice.services.Service;
 
 public class CountrySearchTest {

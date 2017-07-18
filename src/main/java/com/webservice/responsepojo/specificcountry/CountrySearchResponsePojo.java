@@ -1,4 +1,4 @@
-package com.webservice.responsepojo;
+package com.webservice.responsepojo.specificcountry;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

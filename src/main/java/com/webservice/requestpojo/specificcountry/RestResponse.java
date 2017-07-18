@@ -1,4 +1,4 @@
-package com.webservice.requestpojo;
+package com.webservice.requestpojo.specificcountry;
 
 import java.util.List;
 import com.google.gson.annotations.Expose;

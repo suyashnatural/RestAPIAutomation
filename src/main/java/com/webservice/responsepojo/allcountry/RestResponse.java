@@ -1,4 +1,4 @@
-package com.webservice.responsepojo;
+package com.webservice.responsepojo.allcountry;
 
 import java.util.List;
 import com.google.gson.annotations.Expose;
@@ -11,7 +11,7 @@ public class RestResponse {
 	private List<String> messages = null;
 	@SerializedName("result")
 	@Expose
-	private Result result;
+	private List<Result> result = null;
 
 	public List<String> getMessages() {
 		return messages;
@@ -21,11 +21,11 @@ public class RestResponse {
 		this.messages = messages;
 	}
 
-	public Result getResult() {
+	public List<Result> getResult() {
 		return result;
 	}
 
-	public void setResult(Result result) {
+	public void setResult(List<Result> result) {
 		this.result = result;
 	}
 

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1746" started-at="2017-07-18T02:50:58Z" finished-at="2017-07-18T02:51:00Z">
+  <suite name="Default suite" duration-ms="1842" started-at="2017-07-18T03:58:31Z" finished-at="2017-07-18T03:58:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1746" started-at="2017-07-18T02:50:58Z" finished-at="2017-07-18T02:51:00Z">
-      <class name="com.webservice.test.CountrySearchTest">
-        <test-method status="PASS" signature="countrySearchTest()[pri:0, instance:com.webservice.test.CountrySearchTest@643b1d11]" name="countrySearchTest" duration-ms="1726" started-at="2017-07-17T22:50:58Z" finished-at="2017-07-17T22:51:00Z">
+    <test name="Default test" duration-ms="1842" started-at="2017-07-18T03:58:31Z" finished-at="2017-07-18T03:58:33Z">
+      <class name="com.webservice.test.AllCountryTest">
+        <test-method status="PASS" signature="testGetAllCountry()[pri:0, instance:com.webservice.test.AllCountryTest@643b1d11]" name="testGetAllCountry" duration-ms="1813" started-at="2017-07-17T23:58:31Z" finished-at="2017-07-17T23:58:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- countrySearchTest -->
-      </class> <!-- com.webservice.test.CountrySearchTest -->
+        </test-method> <!-- testGetAllCountry -->
+      </class> <!-- com.webservice.test.AllCountryTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
