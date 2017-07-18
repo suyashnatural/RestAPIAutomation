@@ -1,0 +1,28 @@
+Star Wars API - https://swapi.co
+Country API - http://www.groupkt.com/post/f2129b88/free-restful-web-services-to-consume-and-test.htm
+
+Endpoint URL:
+-------------
+http://services.groupkt.com/country/get/iso3code/IND
+
+Request Body or Payload: - Success
+------------------------
+{
+  "RestResponse" : {
+    "messages" : [ "Country found matching code [IND]." ],
+    "result" : {
+      "name" : "India",
+      "alpha2_code" : "IN",
+      "alpha3_code" : "IND"
+    }
+  }
+}
+
+
+Request Body or Payload: - Failure
+------------------------
+{
+  "RestResponse" : {
+    "messages" : [ "No matching country found for requested code [XYZ]." ]
+  }
+}
